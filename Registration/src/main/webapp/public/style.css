@@ -1,0 +1,129 @@
+@charset "ISO-8859-1";
+.signupF{
+    background-image:url(./IMAGS/flat-design-forest-landscape/6213932.jpg);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(172, 127, 127); */
+    background-color: #121111;
+}
+ body{
+    max-width: auto;
+    min-height: 100vh;
+    align-items: center;
+    background-image:url(IMAGS/flat-design-forest-landscape/6213932.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+ }
+
+#formsignup{
+    position: relative;
+    margin-right:300px;
+    max-width:400px;
+    max-height:900px;
+    margin: 0 auto;
+    margin-top: -30px;
+    color:rgb(0, 0, 0);
+
+}
+
+.container{
+    margin-left:30%;
+    width: 500px;
+    height: auto;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    background-color: #ffffff;
+    padding:20px;
+    box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+    
+}
+.login-link{
+    margin-top: 10px;
+    margin-bottom: 15px;;
+}
+ h2{
+    color: brown;
+    height: 80px;
+    text-align: center;
+ }
+.form-group{
+    margin-right:300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    /* margin-left: 15px; */
+    padding: 20px;
+    justify-content: space-between;
+}
+.form-group label{
+    margin-bottom: 1px;
+}
+.btn-primary{
+    /* display: inline; */
+    margin-bottom: max;
+    background-color: brown;
+    border-radius: 8px;
+}
+.outlook {
+
+    
+    align-items: center;
+    background-color: beige;
+    box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+    margin-top: 12%;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+
+}
+.text-view{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.password-related{
+    box-shadow: 0 0 5px 1px rgb(16, 15, 15); 
+    border-radius: 5px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+ button{
+    background-color: brown;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 15px;;
+}
+.look-like{
+    margin-left: 200px;
+    margin-right: 300px;
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
